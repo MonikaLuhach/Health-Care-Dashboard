@@ -1,0 +1,11 @@
+.bgCol{
+  background-color: rgb(35, 35, 35);
+}
+
+.control-row{
+  margin-top: 15px;
+}
+
+.number-input{
+  max-width: 110px;
+}
