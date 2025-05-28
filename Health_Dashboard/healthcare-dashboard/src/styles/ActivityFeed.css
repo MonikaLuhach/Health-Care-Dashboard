@@ -46,61 +46,6 @@
 }
 
 
-
-
- /* .activity-container {
-   width: 100%;
-   max-width: 520px;
-   height: auto;
-   margin: 20px auto;
-   background-color: #F6FAFF;
-   border-radius: 20px;
-   padding: 20px;
-   box-sizing: border-box;
- }
-
- .chart {
-   margin-top: -20px;
- }
-
- .activity-container-content span {
-   font-size: 12px;
-   margin: 0;
-   padding: 0;
- }
-
- .activity-container-content {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-wrap: wrap;
-   height: auto;
-   gap: 10px;
- }
-
- .day {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   flex: 1;
-   min-width: 40px;
- }
-
- .bars {
-   display: flex;
-   gap: 3px;
-   align-items: flex-end;
-   height: 50px;
-   width: 100%;
-   justify-content: center;
- }
-
- .day-label {
-   margin-top: 5px;
-   font-size: 12px;
-   color: #555;
- }
-
  /* Tablet Screens */
   @media (max-width: 768px) {
    .activity-container {

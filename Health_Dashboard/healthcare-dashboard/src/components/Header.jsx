@@ -16,7 +16,7 @@ const Header = () => {
       </div>
 
       <div className="icons">
-        <img src="src/data/Avatar.png" alt="Profile" className="avatar" />
+        <img src="/data/Avatar.png" alt="Profile" className="avatar" />
         <button className="add-button">+</button>
       </div>
     </div>

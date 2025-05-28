@@ -6,16 +6,12 @@ const HealthStatusCards = () => {
       <div className="health-cards">
         <div className="card">
           <div className="card-container">
-            <img
-              src="src/data/HumanLungs.png"
-              width="30"
-              height="30"
-              alt=""
-              className="image"
-            />
+             <img
+              src="/data/HumanLungs.png" width="28" height="28" alt="" className="image"
+            /> 
             <div>
               <h3>Lungs</h3>
-            </div> 
+            </div>
           </div>
           <div className="card-content">
             <p>Date: 24 May 2025</p>
@@ -29,7 +25,7 @@ const HealthStatusCards = () => {
         </div>
         <div className="card">
           <div className="card-container">
-            <img src="src/data/HumanTeeth.png" width="30" height="30" alt="" />
+            <span className="icon">🦷</span>
             <div>
               <h3>Teeth</h3>
             </div>
@@ -46,13 +42,7 @@ const HealthStatusCards = () => {
         </div>
         <div className="card">
           <div className="card-container">
-            <img
-              src="src/data/HumanBone.png"
-              width="30"
-              height="30"
-              alt=""
-              className="image"
-            />
+            <span className="icon">🦴</span>
             <div>
               <h3>Bone</h3>
             </div>

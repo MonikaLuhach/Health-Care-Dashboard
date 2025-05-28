@@ -7,7 +7,7 @@ const AnatomySection = () => {
       <h2>Dashboard</h2>
       <div className="body-card">
         <img
-          src="src/data/HumanAnatomy.png"
+          src="../data/HumanAnatomy.png"
           width="400"
           height="500"
           alt="Human Anatomy image"
