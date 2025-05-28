@@ -1,0 +1,279 @@
+.calendar-container {
+  padding: 0px 20px ;
+  width: 550px;
+  margin: 10px 10px 10px 20px;
+  background-color: #F6FAFF;
+  border-radius: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.calendar-header h2{
+  font-size: 16px;
+}
+
+.calendar-nav button {
+  background-color: #eee; 
+  border: none;
+  margin-left: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day-column {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.day-header {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.day-header strong{
+  font-size: 16px;
+}
+
+.time-slot {
+  background-color: #dfe6f7;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.highlight {
+  background-color: #3455eb;
+  color: white;
+}
+
+.appointment-card-container {
+  display: flex;
+  gap: 15px;
+  padding: 0px 10px;
+} 
+
+.dentist {
+  padding: 8px 8px 0px 8px;
+  margin: 8px;
+  border-radius: 15px;
+  width: 160px;
+  color: white;
+  background-color: #073da1;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.physiotherapy {
+  padding: 8px 8px 0px 8px;
+  margin: 8px;
+  border-radius: 15px;
+  width: 290px;
+  background-color: #cfd8f6;
+  color: black;
+  font-size: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  float: right;
+}
+
+.time {
+  font-size: 12px;
+  padding-left: 8px;
+
+}
+
+.doctor {
+  font-size: 12px;
+  padding-left: 8px;
+  margin-top: -3px;
+}
+
+
+
+/* 
+NEW CSS
+
+ .calendar-container {
+   padding: 20px;
+   width: 100%;
+   max-width: 550px;
+   margin: 10px auto;
+   background-color: #F6FAFF;
+   border-radius: 20px;
+   box-sizing: border-box;
+ }
+
+ .calendar-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+ }
+
+ .calendar-header h2 {
+   font-size: 16px;
+ }
+
+ .calendar-nav button {
+   background-color: #eee;
+   border: none;
+   margin-left: 5px;
+   padding: 5px 10px;
+   cursor: pointer;
+ }
+
+ .calendar-grid {
+   display: grid;
+   grid-template-columns: repeat(7, 1fr);
+   gap: 10px;
+ }
+
+ .day-column {
+   background-color: #f4f4f4;
+   border-radius: 8px;
+   padding: 10px;
+   font-size: 12px;
+ }
+
+ .day-header {
+   text-align: center;
+   margin-bottom: 10px;
+   font-size: 12px;
+ }
+
+ .day-header strong {
+   font-size: 16px;
+ }
+
+ .time-slot {
+   background-color: #dfe6f7;
+   border-radius: 5px;
+   padding: 5px;
+   margin: 5px 0;
+   text-align: center;
+ }
+
+ .highlight {
+   background-color: #3455eb;
+   color: white;
+ }
+
+ .appointment-card-container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   padding: 0 10px;
+ }
+
+ .dentist,
+ .physiotherapy {
+   padding: 8px 8px 0px 8px;
+   margin: 8px;
+   border-radius: 15px;
+   font-size: 14px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   box-sizing: border-box;
+ }
+
+ .dentist {
+   width: 160px;
+   background-color: #073da1;
+   color: white;
+ }
+
+ .physiotherapy {
+   width: 290px;
+   background-color: #cfd8f6;
+   color: black;
+ }
+
+ .icon {
+   float: right;
+ }
+
+ .time {
+   font-size: 12px;
+   padding-left: 8px;
+ }
+
+ .doctor {
+   font-size: 12px;
+   padding-left: 8px;
+   margin-top: -3px;
+ } */
+
+ /* ✅ Tablet view (<= 768px) */
+ @media (max-width: 768px) {
+   .calendar-grid {
+     grid-template-columns: repeat(4, 1fr);
+   }
+
+   .appointment-card-container {
+     justify-content: center;
+   }
+
+   .physiotherapy {
+     width: 100%;
+   }
+
+   .dentist {
+     width: 48%;
+   }
+ } 
+
+ /* ✅ Mobile view (<= 480px) */
+ @media (max-width: 480px) {
+   .calendar-header h2 {
+     font-size: 14px;
+   }
+
+   .calendar-nav {
+     margin-top: 10px;
+   }
+
+   .calendar-grid {
+     grid-template-columns: repeat(2, 1fr);
+     gap: 8px;
+   }
+
+   .day-column {
+     font-size: 11px;
+     padding: 8px;
+   }
+
+   .time-slot {
+     font-size: 11px;
+     padding: 4px;
+   }
+
+   .appointment-card-container {
+     flex-direction: column;
+     align-items: stretch;
+     gap: 10px;
+   }
+
+   .dentist,
+   .physiotherapy {
+     width: 100%;
+   }
+ }
+

@@ -1,0 +1,236 @@
+.dashboard-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.body-card {
+  position: relative;
+  width: 280px;
+  padding: 10px; 
+  margin: 20px 20px 20px 40px;
+  background: #F6FAFF;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.body-image {
+  height: 330px;
+  width: 280px;
+  display: block;
+}
+
+.zoom-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.heart-label {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  background-color: #3f51b5;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.leg-label {
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+  background-color: #00bcd4;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 10px; 
+  white-space: nowrap;
+}
+
+.heart-scan{
+  position: absolute;
+  top: 90px;
+  right: 120px;
+  color: #070707;
+}
+
+.leg-scan{
+  position: absolute;
+  bottom: 90px;
+  left: 118px;
+}
+
+.zoomIn-icon{
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+
+
+/* new css
+
+.dashboard-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.body-card {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  padding: 10px;
+  margin: 20px auto;
+  background: #F6FAFF;
+  border-radius: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.body-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.zoom-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: white;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.heart-label {
+  position: absolute;
+  top: 85px;
+  right: 20px;
+  background-color: #3f51b5;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.leg-label {
+  position: absolute;
+  bottom: 90px;
+  left: 30px;
+  background-color: #00bcd4;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 15px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.heart-scan {
+  position: absolute;
+  top: 90px;
+  right: 120px;
+  color: #070707;
+}
+
+.leg-scan {
+  position: absolute;
+  bottom: 90px;
+  left: 118px;
+}
+
+.zoomIn-icon {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+} */
+
+/* ✅ Tablet Screens */
+ @media (max-width: 768px) {
+  .body-card {
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .heart-label,
+  .leg-label,
+  .heart-scan,
+  .leg-scan {
+    font-size: 9px;
+    padding: 6px 8px;
+  }
+
+  .heart-scan {
+    right: 100px;
+  }
+
+  .leg-scan {
+    left: 100px;
+  }
+}
+
+/* ✅ Mobile Screens */
+ @media (max-width: 480px) {
+  h2 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .body-card {
+    padding: 8px;
+    margin: 10px auto;
+  }
+
+  .heart-label,
+  .leg-label,
+  .heart-scan,
+  .leg-scan {
+    font-size: 8px;
+    padding: 5px 6px;
+  }
+
+  .heart-label {
+    top: 65px;
+    right: 15px;
+  }
+
+  .leg-label {
+    bottom: 65px;
+    left: 15px;
+  }
+
+  .heart-scan {
+    top: 70px;
+    right: 90px;
+  }
+
+  .leg-scan {
+    bottom: 70px;
+    left: 90px;
+  }
+
+  .zoom-btn {
+    top: 15px;
+    right: 15px;
+    font-size: 8px;
+  }
+} 
