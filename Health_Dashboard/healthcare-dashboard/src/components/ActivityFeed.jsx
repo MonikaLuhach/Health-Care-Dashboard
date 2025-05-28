@@ -1,47 +1,5 @@
 import "../styles/ActivityFeed.css";
 
-// const data = [
-//   [40, 60, 30], // Mon
-//   [70, 50, 20], // Tues
-//   [30, 40, 20], // Wed
-//   [60, 70, 30], // Thurs
-//   [80, 50, 40], // Fri
-//   [35, 25, 15], // Sat
-//   [55, 45, 35], // Sun
-// ];
-
-// const days = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];
-
-// const ActivityFeed = () => {
-//   return (
-//     <div className="activity-chart-container">
-//       <div className="chart-header">
-//         <h3>Activity</h3>
-//         <span className="summary">3 appointment on this week</span>
-//       </div>
-//       <div className="chart">
-//         {data.map((dayData, i) => (
-//           <div className="day" key={i}>
-//             <div className="bars">
-//               {dayData.map((height, j) => (
-//                 <div
-//                   key={j}
-//                   className={`bar bar-${j}`}
-//                   style={{ height: `${height}px` }}
-//                 ></div>
-//               ))}
-//             </div>
-//             <div className="day-label">{days[i]}</div>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default ActivityFeed;
-
-
 import ReactApexChart from "react-apexcharts";
 
 const days = ["Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"];

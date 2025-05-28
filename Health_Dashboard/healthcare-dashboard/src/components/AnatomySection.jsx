@@ -3,24 +3,11 @@ import "../styles/AnatomySection.css";
 
 const AnatomySection = () => {
   return (
-    // <div>
-    //   <img
-    //     src="src\HumanAnatomy.png"
-    //     width="400"
-    //     height="500"
-    //     alt="Human Anatomy image"
-    //   />
-    //   <ScanLine />
-    //   <ScanLine />
-    //   <div>Healthy Heart</div>
-    //   <div>Healthy Bones</div>
-    // </div>
-
     <div className="dashboard-wrapper">
       <h2>Dashboard</h2>
       <div className="body-card">
         <img
-          src="src\data\HumanAnatomy.png"
+          src="src/data/HumanAnatomy.png"
           width="400"
           height="500"
           alt="Human Anatomy image"
